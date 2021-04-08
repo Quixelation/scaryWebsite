@@ -62,5 +62,21 @@
         z-index: 3000;
       }
     }
+    @media screen and (max-width: 600px) {
+      //smoll
+      flex-direction: row;
+      .cardImg {
+        transform: none;
+        margin-right: -25px;
+      }
+      .cardContentContainer {
+        padding-left: 15px + 25px;
+      }
+      &:hover {
+        .cardImg {
+          transform: none;
+        }
+      }
+    }
   }
 </style>

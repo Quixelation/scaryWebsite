@@ -10,7 +10,8 @@
 <MainPage />
 <div id="twitch">
   <svg
-    style="vertical-align:top; margin-top: -150px;"
+    class="marginTopSvg"
+    style="vertical-align:top; ;"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
   >
@@ -45,5 +46,11 @@
 <br />
 <br />
 
-<style>
+<style lang="scss">
+  .marginTopSvg {
+    margin-top: -150px;
+    @media screen and (max-width: 800px) {
+      margin-top: 0px;
+    }
+  }
 </style>

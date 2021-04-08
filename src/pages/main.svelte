@@ -20,6 +20,12 @@
     &.mainsection {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      @media screen and (max-width: 600px) {
+        //smoll
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+      }
       align-items: center;
       gap: 100px;
     }
@@ -28,6 +34,7 @@
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
+
       position: relative;
       .main_portrait {
         width: 200px;

@@ -53,21 +53,36 @@
     </li>
     <li><a href="#twitch"><span>Twitch</span></a></li>
     <li><a href="#youtube"><span>Youtube</span></a></li>
-    <li><a use:link href="/instagram"><span>Instagram</span></a></li>
-    <li><a use:link href="/impressum"><span>Impressum</span></a></li>
+    <li>
+      <a href="/https://www.instagram.com/scaryMikrowelle/"
+        ><span>Instagram</span></a
+      >
+    </li>
   </ul>
   <span class="time" bind:this={timeELem} />
 </nav>
 
-<style>
+<style lang="scss">
+  ul {
+    padding: 0;
+    flex-wrap: wrap;
+  }
   nav {
     height: 50px;
     background-color: #222222a4;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     display: flex;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      height: auto;
+      padding: {
+        top: 5px;
+        bottom: 5px;
+      }
+    }
     align-items: center;
-    position: fixed;
+    position: sticky;
     justify-content: space-between;
     left: 0;
     top: 0;

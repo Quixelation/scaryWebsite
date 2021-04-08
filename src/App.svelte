@@ -17,9 +17,12 @@
 </main>
 <Footer />
 
-<style>
+<style lang="scss">
   :global(*) {
     box-sizing: border-box;
+  }
+  :global(:root) {
+    //font-size: 0.8em;
   }
   :global(.mainTitle) {
     font-family: "Lobster", cursive;
@@ -47,12 +50,12 @@
     scroll-behavior: smooth;
   }
   :global(.mainMargin) {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   :global(.mainPadding) {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   main {
     margin-bottom: 30px;
@@ -69,5 +72,8 @@
   }
   :global(.pageHeight) {
     min-height: 60vh;
+    @media screen and (max-width: 600px) {
+      min-height: unset;
+    }
   }
 </style>

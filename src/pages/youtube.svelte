@@ -22,6 +22,12 @@
   .page {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 768px) {
+      //smoll
+      display: flex;
+      flex-direction: column;
+    }
     gap: 15px;
   }
 </style>
