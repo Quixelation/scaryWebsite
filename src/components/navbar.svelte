@@ -54,7 +54,7 @@
     <li><a href="#twitch"><span>Twitch</span></a></li>
     <li><a href="#youtube"><span>Youtube</span></a></li>
     <li>
-      <a href="/https://www.instagram.com/scaryMikrowelle/"
+      <a href="https://www.instagram.com/scaryMikrowelle/"
         ><span>Instagram</span></a
       >
     </li>
