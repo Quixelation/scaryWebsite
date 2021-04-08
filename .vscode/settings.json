@@ -1,0 +1,4 @@
+{
+    "deepscan.enable": true,
+    "restructuredtext.languageServer.disabled": true
+}
