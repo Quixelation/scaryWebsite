@@ -68,6 +68,7 @@
     display: flex;
     align-items: center;
     position: fixed;
+    justify-content: space-between;
     left: 0;
     top: 0;
     z-index: 9999;
