@@ -3,7 +3,7 @@
   <div class="pageContent widthWrapper">
     <iframe
       title="Twitch"
-      src="https://player.twitch.tv/?channel=scaryMikrowelle&parent=localhost"
+      src="https://player.twitch.tv/?channel=scaryMikrowelle&parent=clemensgreulich.de"
       frameborder="0"
       allowfullscreen="true"
       scrolling="no"
