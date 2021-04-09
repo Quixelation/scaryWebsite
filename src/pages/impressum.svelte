@@ -1,11 +1,15 @@
+<script>
+    import Navbar from "./../components/navbar.svelte";
+</script>
+
+<Navbar />
+
 <table class="tg">
-<thead>
+<tbody>
     <tr>
         <th class="tg-km2t">Name</th>
         <th class="tg-zv4m">Clemens Jonathan Greulich</th>
     </tr>
-</thead>
-<tbody>
     <tr>
         <td>&nbsp;</td>
     </tr>
