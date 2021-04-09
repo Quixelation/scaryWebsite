@@ -1,9 +1,13 @@
+<script>
+  let host = location.hostname;
+</script>
+
 <div class=" pageHeight page mainPadding">
   <h2 class="twitchTitle mainTitle">Twitch</h2>
   <div class="pageContent widthWrapper">
     <iframe
       title="Twitch"
-      src="https://player.twitch.tv/?channel=scaryMikrowelle&parent=clemensgreulich.de"
+      src="https://player.twitch.tv/?channel=scaryMikrowelle&parent={host}"
       frameborder="0"
       allowfullscreen="true"
       scrolling="no"
