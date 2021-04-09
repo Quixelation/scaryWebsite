@@ -7,28 +7,28 @@
 </thead>
 <tbody>
     <tr>
-        <td class="tg-km2t">&nbspKontakt</td>
-        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbspTelefon: +4915123455552</td>
+        <td class="tg-km2t">&nbsp;Kontakt</td>
+        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbsp;Telefon: +4915123455552</td>
     </tr>
     <tr>
         <td class="tg-zv4m"></td>
-        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbspEmail: clemens@clemensgreulich.de</td>
+        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbsp;Email: clemens@clemensgreulich.de</td>
     </tr>
     <tr>
-        <td class="tg-km2t">&nbspAnschrift</td>
-        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbspMarderweg 7</td>
-    </tr>
-    <tr>
-        <td class="tg-zv4m"></td>
-        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbsp07749</td>
+        <td class="tg-km2t">&nbsp;Anschrift</td>
+        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbsp;Marderweg 7</td>
     </tr>
     <tr>
         <td class="tg-zv4m"></td>
-        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbspJena</td>
+        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbsp;07749</td>
     </tr>
     <tr>
         <td class="tg-zv4m"></td>
-        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbspDeutschland</td>
+        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbsp;Jena</td>
+    </tr>
+    <tr>
+        <td class="tg-zv4m"></td>
+        <td class="tg-zv4m">&nbsp&nbsp&nbsp&nbsp;Deutschland</td>
     </tr>
 </tbody>
 </table>
