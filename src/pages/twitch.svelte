@@ -11,7 +11,7 @@
     <div>
       <a
         class="mainTextLink"
-        href="https://www.twitch.tv/scaryMikrowelle/"
+        href="https://twitch.clemensgreulich.de"
         target="_blank"
         ><span class="linkPrefix">twitch.tv/</span><span class="twitchName"
           >scaryMikrowelle</span

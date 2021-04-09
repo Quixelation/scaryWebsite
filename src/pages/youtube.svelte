@@ -9,7 +9,7 @@
     description=" Hier gibt es Twitch-Highlights von scaryMikrowelle auf einem anderen Level
       zu sehen."
     logoUrl="assets/scaryBestOfLogo.jpg"
-    link="https://www.youtube.com/channel/UCNz41FwNIpvM3k_blOlZVDA"
+    link="https://youtube.clemensgreulich.de/"
   />
   <YoutubeCard
     title="scaryMikrowelle"
