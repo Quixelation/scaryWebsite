@@ -25,9 +25,6 @@
   :global(*) {
     box-sizing: border-box;
   }
-  :global(:root) {
-    //font-size: 0.8em;
-  }
 
   :global(.mainTitle) {
     font-family: "Lobster", cursive;
