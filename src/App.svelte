@@ -13,9 +13,13 @@
 </script>
 
 <main>
-  <Router {routes} />
+  <div class="routesContainer">
+    <Router {routes} />
+  </div>
+  <div class="footerContainer">
+    <Footer />
+  </div>
 </main>
-<Footer />
 
 <style lang="scss">
   :global(*) {
@@ -24,6 +28,18 @@
   :global(:root) {
     //font-size: 0.8em;
   }
+  :global(body::-webkit-scrollbar-track) {
+    background-color: #121212;
+  }
+
+  :global(body::-webkit-scrollbar-thumb) {
+    background-color: #2b2b2b;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
   :global(.mainTitle) {
     font-family: "Lobster", cursive;
     text-align: center;
@@ -59,6 +75,12 @@
   }
   main {
     margin-bottom: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .routesContainer {
+      flex-grow: 1;
+    }
   }
   @media screen and (min-width: 640px) {
     :global(.mainMargin) {
