@@ -28,17 +28,6 @@
   :global(:root) {
     //font-size: 0.8em;
   }
-  :global(body::-webkit-scrollbar-track) {
-    background-color: #121212;
-  }
-
-  :global(body::-webkit-scrollbar-thumb) {
-    background-color: #2b2b2b;
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-  }
 
   :global(.mainTitle) {
     font-family: "Lobster", cursive;
@@ -61,6 +50,19 @@
     padding: 0;
     background-color: #121212;
     color: #eee;
+    scrollbar-width: thin;
+    scrollbar-color: #2b2b2b #121212;
+    &::-webkit-scrollbar-thumb {
+      background-color: #2b2b2b;
+      border-radius: 6px;
+      border: 3px solid var(--scrollbarBG);
+    }
+    &::-webkit-scrollbar-track {
+      background: #121212;
+    }
+    &::-webkit-scrollbar {
+      width: 11px;
+    }
   }
   :global(html) {
     scroll-behavior: smooth;
