@@ -28,11 +28,11 @@
     </tr>
     <tr>
         <td class="tg-km2t">Kontakt</td>
-        <td class="tg-zv4m">Telefon: +4915123455552</td>
+        <td class="tg-zv4m">+4915123455552</td>
     </tr>
     <tr>
         <td class="tg-zv4m"></td>
-        <td class="tg-zv4m">Email: clemens@clemensgreulich.de</td>
+        <td class="tg-zv4m"><a href="mailto:clemens@clemensgreulich.de?subject=Clemens kontaktieren">clemens@clemensgreulich.de</a></td>
     </tr>
     <tr>
         <td class="tg-0pky"></td>
