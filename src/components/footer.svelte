@@ -4,7 +4,7 @@
 
 <div class="footer mainPadding">
   <div>
-    <img src="assets/scaryMikrowelleLogo.jpg" alt="scaryMikroWelle Logo" />
+    <img src="assets/scaryMikrowelleLogo.jpg" alt="scaryMikrowelle Logo" />
     <span>Clemens Greulich</span>
   </div>
   <div>
