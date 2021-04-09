@@ -32,7 +32,7 @@
     </tr>
     <tr>
         <td class="tg-zv4m"></td>
-        <td class="tg-zv4m"><a href="mailto:clemens@clemensgreulich.de?subject=Clemens kontaktieren">clemens@clemensgreulich.de</a></td>
+        <td class="tg-zv4m"><a href="mailto:clemens@clemensgreulich.de">clemens@clemensgreulich.de</a></td>
     </tr>
     <tr>
         <td class="tg-0pky"></td>
