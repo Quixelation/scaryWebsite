@@ -8,6 +8,8 @@
 <tbody>
     <tr>
         <td>&nbsp;</td>
+    </tr>
+    <tr>
         <td class="tg-km2t">Kontakt</td>
         <td class="tg-zv4m">+4915123455552</td>
     </tr>
@@ -17,6 +19,8 @@
     </tr>
     <tr>
         <td>&nbsp;</td>
+    </tr>
+    <tr>
         <td class="tg-km2t">Anschrift</td>
         <td class="tg-zv4m">Marderweg 7</td>
     </tr>
