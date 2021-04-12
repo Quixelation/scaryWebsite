@@ -1,19 +1,24 @@
 <script>
   let host = location.hostname;
+  var twitchIframe;
+  import { onMount } from "svelte";
+  onMount(async () => {
+    if(cssPropertyValueSupported("aspect-ratio", "16 / 9")){
+    twitchIframe.style.height = "unset"
+  }
+  });
   function cssPropertyValueSupported(prop, value) {
   var d = document.createElement('div');
   d.style[prop] = value;
   return d.style[prop] === value;
 }
-  if(cssPropertyValueSupported("aspect-ratio", "16 / 9")){
-    document.querySelector("iframe").style.height = "unset"
-  }
+  
 </script>
 
 <div class=" pageHeight page mainPadding">
   <h2 class="twitchTitle mainTitle">Twitch</h2>
   <div class="pageContent widthWrapper">
-    <iframe
+    <iframe bind:this={twitchIframe}
       title="Twitch"
       src="https://player.twitch.tv/?channel=scaryMikrowelle&parent={host}"
       frameborder="0"
