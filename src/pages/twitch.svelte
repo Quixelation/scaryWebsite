@@ -1,5 +1,13 @@
 <script>
   let host = location.hostname;
+  function cssPropertyValueSupported(prop, value) {
+  var d = document.createElement('div');
+  d.style[prop] = value;
+  return d.style[prop] === value;
+}
+  if(cssPropertyValueSupported("aspect-ratio", "16 / 9")){
+    document.querySelector("iframe").style.height = "unset"
+  }
 </script>
 
 <div class=" pageHeight page mainPadding">
