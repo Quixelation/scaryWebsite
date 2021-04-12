@@ -29,6 +29,7 @@
   iframe {
     height: 378px;
     width: 620px;
+    aspect-ratio: 16 / 9;
     @media screen and (max-width: 800px) {
       //smoll
       width: 100%;
