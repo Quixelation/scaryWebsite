@@ -3,15 +3,11 @@
   var twitchIframe;
   import { onMount } from "svelte";
   onMount(async () => {
-    if(cssPropertyValueSupported("aspect-ratio", "16 / 9")){
+    if(CSS?.supports?.("aspect-ratio","16 / 9")){
     twitchIframe.style.height = "unset"
   }
   });
-  function cssPropertyValueSupported(prop, value) {
-  var d = document.createElement('div');
-  d.style[prop] = value;
-  return d.style[prop] === value;
-}
+  
   
 </script>
 
