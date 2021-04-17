@@ -8,7 +8,7 @@
     <span>Clemens Greulich</span>
   </div>
   <div>
-    <a href="/licenses.html">Lizensen</a>
+    <a href="/licenses.html">Lizenzen</a>
     <a use:link href="/impressum">Impressum</a>
   </div>
 </div>
